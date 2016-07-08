@@ -1,0 +1,3 @@
+location /step1/ {
+	proxy_pass http://step-1:1000/;
+}
